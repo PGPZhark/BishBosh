@@ -1,0 +1,16 @@
+body
+{
+    background-color: bisque;
+}
+.runProgramButton
+{
+    margin-top: 20px;
+    width: 3%;
+    display: block;
+}
+footer
+{
+    position: absolute;
+    bottom:0;
+    left:10;
+}

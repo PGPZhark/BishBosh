@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><b>Bish-Bosh 2</b></header>
+    <p>
+        Bish-Bosh listar alla tal mellan ett tal som användaren sätter in nedan. Om talet är jämnt delbart med första divisionstalet <br>
+        som användaren sätter in listas 'Bish' istället för talet. Om talet är jämnt delbart med andra divisionstalet listas 'Bosh' <br>
+        istället. Om talet är jämnt delbart med båda talen skrivs 'Bish-Bosh' istället för talet.
+    </p>
+    <h4>Första divisionstal: </h4>
+    <input type="text" id="X" />
+
+    <h4>Andra divisionstal: </h4>
+    <input type="text" id="Y" />
+
+    <h4>Loop tal: </h4>
+    <input type="text" id="N" />
+
+    <input type="button" class = "runProgramButton" onclick="bishbosh();" value ="Kör"></input>
+
+    <h3>Output:</h3>
+    <p id = "Output"></p>
+
+
+
+    <footer>av Simon Haglund</footer>
+    <script src="bishbosh.js"></script>
+</body>
+</html>
